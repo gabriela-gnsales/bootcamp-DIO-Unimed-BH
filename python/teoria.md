@@ -1,7 +1,8 @@
 # PYTHON
 
 * uma linguagem de tipagem dinâmica e forte
-* multiplataforma e multiparadigma.
+* multiplataforma e multiparadigma
+* case sensitive
 
 `int()` -> clicar em CTRL e em cima da classe para ver sua implementação e todos os métodos utilizados
 
@@ -24,6 +25,26 @@ __Verificar a versão do python:__ python -V ou python3 -V
     * modo interativo: `help()` 
     * informando por parâmetro o nome do módulo, função, classe, método ou variável: ex: `help(100)`
 
+### Python não tem constantes
+__Convenção para informar que uma variável é constante:__ criar a variável com o __nome todo em letras maiúsculas__
 
+## Boas práticas:
+* o padrão de nomes deve ser _snake case_
+* escolher nomes sugestivos
+* nome de constante todo em maiúsculo
 
+A função __print__ recebe _1 argumento obrigatório_ do tipo _varargs_ de obetos e _4 argumentos opcionais (sep, end, file e flush)_
+
+__OBS:__ o operador aritmético de divisão interia retorna apenas um valor do tipo inteiro se o numerador for inteiro. Caso seja float, ele também trunca o resultado para o menor inteiro mais próximo, mas seu tipo permanece como float 
+
+__OBS:__ strings (''), listas ([])... __vazias__ são consideradas com valor bool = `False`
+
+# Operadores de identidade: `is` e `is not`
+São utilizados para comparar se os dois objetos testados ocupam a mesma posição na memória
+
+# Operadores de associação: `in` e `not in` --> é case sensitive
+São utilizados para verificar se um objeto está presente em uma sequência
+
+`__break__`: PARA a execução
+`__continue__`: PULA a execução
 

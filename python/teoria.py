@@ -23,3 +23,13 @@ nome = 'curso de python'
 print(nome.title())  # Curso De Python
 print(nome.capitalize())  # Curso de python
 
+pessoa = {
+    'nome': 'Gabi',
+    'idade': 27
+}
+
+print('Olá, meu nome é {nome} e possuo {idade} anos.'.format(**pessoa))
+
+curso = "Python"                                                     
+print(curso[::-1])
+

@@ -1,2 +1,2 @@
-# Arquivo tste para aprendizado de Git e GitHub
-
+# Arquivo teste para aprendizado de Git e GitHub
+👩‍🎓 💻 

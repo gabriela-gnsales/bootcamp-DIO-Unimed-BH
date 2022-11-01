@@ -15,6 +15,9 @@ class Bicicleta:
         self.ano = ano
         self.valor = valor
 
+    def __del__(self):
+        print('Removendo a instância da classe.')
+
     def buzinar(self):
         print('Plim plim...')
 

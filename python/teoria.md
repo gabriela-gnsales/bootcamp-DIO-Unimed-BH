@@ -48,3 +48,6 @@ São utilizados para verificar se um objeto está presente em uma sequência
 `__break__`: PARA a execução
 `__continue__`: PULA a execução
 
+`__init__`: método CONSTRUTOR
+`__del__`: método DESTRUTOR
+

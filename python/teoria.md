@@ -25,6 +25,10 @@ __Verificar a versão do python:__ python -V ou python3 -V
     * modo interativo: `help()` 
     * informando por parâmetro o nome do módulo, função, classe, método ou variável: ex: `help(100)`
 
+__`__init__`:__ método CONSTRUTOR
+
+__`__del__`:__ método DESTRUTOR
+
 ### Python não tem constantes
 __Convenção para informar que uma variável é constante:__ criar a variável com o __nome todo em letras maiúsculas__
 
@@ -39,15 +43,14 @@ __OBS:__ o operador aritmético de divisão interia retorna apenas um valor do t
 
 __OBS:__ strings (''), listas ([])... __vazias__ são consideradas com valor bool = `False`
 
-# Operadores de identidade: `is` e `is not`
+### Operadores de identidade: `is` e `is not`
 São utilizados para comparar se os dois objetos testados ocupam a mesma posição na memória
 
-# Operadores de associação: `in` e `not in` --> é case sensitive
+### Operadores de associação: `in` e `not in` --> é case sensitive
 São utilizados para verificar se um objeto está presente em uma sequência
 
-`__break__`: PARA a execução
-`__continue__`: PULA a execução
+* __`break`:__ PARA a execução
+* __`continue`:__ PULA a execução
 
-`__init__`: método CONSTRUTOR
-`__del__`: método DESTRUTOR
+
 

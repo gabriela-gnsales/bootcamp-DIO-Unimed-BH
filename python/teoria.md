@@ -25,10 +25,6 @@ __Verificar a versão do python:__ python -V ou python3 -V
     * modo interativo: `help()` 
     * informando por parâmetro o nome do módulo, função, classe, método ou variável: ex: `help(100)`
 
-__`__init__`:__ método CONSTRUTOR
-
-__`__del__`:__ método DESTRUTOR
-
 ### Python não tem constantes
 __Convenção para informar que uma variável é constante:__ criar a variável com o __nome todo em letras maiúsculas__
 
@@ -52,5 +48,23 @@ São utilizados para verificar se um objeto está presente em uma sequência
 * __`break`:__ PARA a execução
 * __`continue`:__ PULA a execução
 
+## POO - programação orientada a objetos
 
+### Classe
+__-->__ define as características e comportamentos de um objeto, porém não conseguimos usá-las diretamente
+
+### Objeto
+__-->__ podemos usá-los e eles possuem as características e comportamentos que foram definidos nas classes
+
+__`__init__`:__ método CONSTRUTOR - sempre é executado quando uma nova instância da classe é criada; nesse método inicializamos o estado do nosso objeto
+
+__`__del__`:__ método DESTRUTOR - sempre é executado quando uma instância (objeto) é destruída; destrutores em Python não são tão necessários quanto em C++ porque o Python tem um coletor de lixo que lida com o gerenciamento de memória automaticamente
+
+### Herança
+__-->__ capacidade de uma classe filha derivar ou herdar as características e comportamentos da classe pai (base)
+* fornece reutilização de código, não precisamos escrever o mesmo código repetidamente
+* permite adicionar mais recursos a uma classe sem modificá-la
+* é de natureza transitiva, o que significa que, se a classe B herdar da classe A, todas as subclasses de B herdarão automaticamente da classe A
+* __simples / única:__ quando uma classe filha herda apenas uma classe pai
+* __múltipla:__ quando uma classe filha herda de várias classes pai
 

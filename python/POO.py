@@ -52,6 +52,8 @@ bike_1.buzinar()  # = Bicicleta.buzinar(bike_1)
 bike_1.parar()
 bike_1.correr()
 
+# del bike_1 -> a palavra 'del' é usada para forçar a remoção da instância da classe
+
 print(bike_1.cor, bike_1.modelo)
 
 print(bike_1)

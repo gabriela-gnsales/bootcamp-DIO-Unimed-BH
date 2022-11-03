@@ -68,3 +68,16 @@ __-->__ capacidade de uma classe filha derivar ou herdar as características e c
 * __simples / única:__ quando uma classe filha herda apenas uma classe pai
 * __múltipla:__ quando uma classe filha herda de várias classes pai
 
+### Encapsulamento
+__-->__ descreve a ideia de agrupar dados e os métodos que manipulam esses dados em uma unidade
+* impõe restrições ao acesso direto a variáveis e métodos e pode evitar a modificação acidental de dados
+* para evitar alterações acidentais, a variável de um objeto só pode ser alterada pelo método desse objeto
+* em Python não há palavras reservadas para definir o nível de acesso aos atributos e métodos da classe (se são públicas ou privadas) -> todos os recursos são públicos
+* há uma __convenção para definir recursos privados__ -> __iniciar com underline__
+* o interpretador Python não irá garantir a proteção do recurso iniciado com underline, mas por ser uma convenção amplamente adotada na comunidade, quando encontramos uma variável e/ou método com nome iniciado por underline, sabemos que não deveríamos manipular o seu valor diretamente, ou invocar o método fora do escopo da classe
+
+  __Recurso:__
+  * __Público:__ pode ser acessado de fora da classe
+  * __Privado:__ só pode ser acessado pela classe
+
+

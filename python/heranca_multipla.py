@@ -32,18 +32,3 @@ gato = Gato(num_patas=4, cor_pelo="preto")
 
 ornitorrinco = Ornitorrinco(num_patas=2, cor_pelo="vermelho", cor_bico="laranja")
 # print(ornitorrinco)
-
-#########################3
-
-class Foo:
-    def hello(self):
-        print(self.__class__.__name__.lower())
-
-
-class Bar(Foo):
-    def hello(self):
-        return super().hello()
-
-
-bar = Bar()
-bar.hello()

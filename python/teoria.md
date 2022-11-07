@@ -82,6 +82,21 @@ __-->__ Descreve a ideia de agrupar dados e os métodos que manipulam esses dado
 
 ## Listas
 * para adicionar mais de um elemento na lista: `extend` -> `lista.extend([elemento_1, elemento_2...])`
+* filtro - ex: 
+  ```
+  numeros = [1, 30, 21, 2, 9, 65, 34]
+  pares = [numero for numero in numeros if numero % 2 == 0]              
+  ```
+
+## Tuplas
+* é uma boa prática colocar uma vírgula no final ao declarar uma tupla para o python não confundir se é a declaração de uma tupla (quando há apenas 1 elemento) ou se é uma precedência de operadores, por conta dos parênteses -> ex: `pais = ('Brasil',)`
+
+## Conjuntos
+* não é possível acessar valores de um conjunto (`set`), para fazer isso é necessário transformá-lo numa lista primeiro
+* o método `pop()` tira o valor do começo do conjunto, não do final como no caso da lista e tupla
+
+## Dicionários
+* __métodos:__ `clear()`, `copy()`, `fromkeys()`, `get()`, `items()`, `keys()`, `values()`, `pop()`, `popitem()`, `setdefault()`, `update()`, `del()`
 
 ## Bibliotecas
 

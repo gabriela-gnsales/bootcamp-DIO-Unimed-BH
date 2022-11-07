@@ -80,6 +80,9 @@ __-->__ Descreve a ideia de agrupar dados e os métodos que manipulam esses dado
   * __Público:__ pode ser acessado de fora da classe
   * __Privado:__ só pode ser acessado pela classe
 
+### Polimorfismo
+__-->__ Significa o mesmo nome de função (mas assinaturas diferentes) sendo usado para tipos diferentes
+
 ## Listas
 * para adicionar mais de um elemento na lista: `extend` -> `lista.extend([elemento_1, elemento_2...])`
 * filtro - ex: 

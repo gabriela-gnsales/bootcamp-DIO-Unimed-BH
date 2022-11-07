@@ -1,3 +1,5 @@
+# FIXME: anotação fixada / destacada
+
 nome, idade = 'Gabi', 27
 print(nome)
 print(idade)

@@ -1,5 +1,4 @@
-# Alfabeto
-'''
+# Desafio 1 - Alfabeto
 import string
 
 letra = input().lower()
@@ -7,9 +6,8 @@ letra = input().lower()
 for i, l in enumerate(list(string.ascii_lowercase)):
     if letra == l:
         print(i+1)
-'''
-# Papagaio Poliglota
-'''
+
+# Desafio 2 - Papagaio Poliglota
 while True: 
     try:
         # TODO:  Programe aqui dentro as condições necessárias para satisfazer o problema
@@ -25,8 +23,8 @@ while True:
             print('caiu') 
     except EOFError: 
         break
-'''
-# Aumento Salarial
+
+# Desafio 3 - Aumento Salarial
 salario = float(input())
 
 percentual_reajuste = 0
